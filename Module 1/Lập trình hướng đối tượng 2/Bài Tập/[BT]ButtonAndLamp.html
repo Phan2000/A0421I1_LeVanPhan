@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="" id="bong_den" style="width: 100px;height: 100px;"><br>
+<button onclick="switchButton()">Button</button>
+<script>
+    class ElectricLamp {
+        constructor() {
+            document.getElementById("bong_den").src = "http://www.tvmc.com.vn/thumbs/400x350x1/upload/product/edc92298df9c047bd107be746693d955-9914.jpg";
+        }
+        turnOn() {
+            document.getElementById("bong_den").src = "http://360.thuvienvatly.com/images/2014/02/light-bulb-02.jpg";
+        }
+        turnOf() {
+            document.getElementById("bong_den").src = "http://www.tvmc.com.vn/thumbs/400x350x1/upload/product/edc92298df9c047bd107be746693d955-9914.jpg";
+        }
+    }
+    class SwitchButton {
+        constructor(status, lamp) {
+            this.status = status;
+            this.lamp = lamp;
+        }
+        connectToLamp(lamp) {
+            this.lamp = lamp;
+        }
+        turnOnSwitchButton() {
+            this.lamp.turnOn();
+            this.status = true;
+        }
+        turnOfSwitchButton() {
+            this.lamp.turnOf();
+            this.status = false;
+        }
+    }
+    let lamp = new ElectricLamp();
+    let switchButton1 = new SwitchButton(false, lamp);
+    function switchButton() {
+        if (switchButton1.status) {
+            
+            switchButton1.turnOfSwitchButton();
+            alert("Lamp mode OFF");
+            
+        } else {
+            
+            switchButton1.turnOnSwitchButton();
+            alert("Lamp mode ON");
+        }
+    }
+</script>
+</body>
+</html>

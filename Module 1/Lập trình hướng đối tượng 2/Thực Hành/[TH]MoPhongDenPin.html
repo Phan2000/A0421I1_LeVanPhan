@@ -52,18 +52,22 @@ class FlashLamp {
     }
 }
 function main() {
-    let flashLamp = new FlashLamp(true);
-    if(flashLamp.status) {
-        alert("Đèn đang bật");
-    } else {
-        alert("Đèn đang tắt");
-    }
-    for(let i=0;i<10;i++) {
+    
+        let flashLamp = new FlashLamp(true);
+    for(let j=0;j<10;j++){        
+        if(flashLamp.status) {
+            alert("Đèn đang bật");
+        } else {
+            alert("Đèn đang tắt");
+        }
 
-        flashLamp.light();
+        for(let i=0;i<10;i++) {
+
+            flashLamp.light();
+        }
+            alert("Pin hiện tại: "+flashLamp.getBattery().getEnergy());
     }
-    alert("Pin hiện tại: "+flashLamp.getBattery().getEnergy());
-}
+}   
 main();
 </script>
 </body>
