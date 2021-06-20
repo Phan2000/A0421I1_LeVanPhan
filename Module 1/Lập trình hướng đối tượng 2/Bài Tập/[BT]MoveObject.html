@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Move Object</title>
+</head>
+<body>
+<div id="game"></div>
+<script type="text/javascript">
+class Bird{
+  constructor(image, top, left, sizewidth,sizeheight){
+    this.image = image;
+    this.top = top;
+    this.left = left;
+    this.sizewidth = sizewidth;
+    this.sizeheight = sizeheight;
+  }
+
+  getBird(){
+    return '<img " width="'+ this.sizewidth + '"' +
+      ' height="'+ this.sizeheight + '"' +
+      ' src="' + this.image +'"' +
+      ' style="top: '+this.top+'px; left:'+this.left+'px;position:absolute;" />';
+  }
+
+  getMoveStraight (){
+    return this.left += 100;
+    console.log('ok'+this.left);
+  }
+
+  getMoveRight(){
+    return this.top +=100;
+    console.log('ok'+this.top);
+  }
+
+  getMoveLeft(){
+    return this.left -=100;
+    console.log('ok'+this.left);
+  }
+
+}
+
+var bird = new Bird('https://art.pixilart.com/deb28fbbe1b9702.png', 0, 0, 200,150);
+
+function start(){
+  if(bird.left < window.innerWidth - bird.sizewidth){
+  bird.getMoveStraight();
+  }
+
+
+  if(bird.left >= (window.innerWidth - bird.sizewidth) && bird.top < window.innerHeight - bird.sizeheight){
+      bird.getMoveRight();
+  }
+
+  document.getElementById('game').innerHTML = bird.getBird();
+  setTimeout(start, 500); 
+}
+
+
+start();
+</script>
+</body>
+</html>
