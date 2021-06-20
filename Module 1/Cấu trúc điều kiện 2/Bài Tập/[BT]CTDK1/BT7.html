@@ -10,40 +10,40 @@
 	//CallDuration : Thời hạn cuộc gọi
 	//CallCharges : Cước phí cuộc gọi
 	//Total : Tổng cước phí sau gọi
-	var Method=prompt("Enter Call Method : ");
-	if(Method == 'Noimang'){
-		const CallCharges=900;
-		var CallDuration = Number(prompt("Enter CallDuration : "));
-		if(CallDuration>=60){
-			CallDuration -= 5;
-            var Total = CallDuration*CallCharges;
+	var method=prompt("Enter Call Method : ");
+	if(method == 'Noimang'){
+		const callCharges=900;
+		var callDuration = Number(prompt("Enter CallDuration : "));
+		if(callDuration>=60){
+			callDuration -= 5;
+            var total = callDuration*callCharges;
         }
-        else if(CallDuration>=30){
-        	CallDuration -=3;
-            var Total =CallDuration*CallCharges;
+        else if(callDuration>=30){
+        	callDuration -=3;
+            var total =callDuration*callCharges;
         }
         else{
-        	CallDuration -= 1;
-            var Total = CallDuration*CallCharges;
+        	callDuration -= 1;
+            var total = callDuration*callCharges;
         }
-        alert('Your call duration is: '+CallDuration+' Minute'+'\n'+ 'Phí cuộc gọi là: '+Total);
+        alert('Your call duration is: '+callDuration+' Minute'+'\n'+ 'Phí cuộc gọi là: '+total);
 	}
 	else{
-		const CallCharges=1200;
-		var CallDuration = Number(prompt("Enter CallDuration : "));
-		if(CallDuration>=60){
-			CallDuration -= 5;
-            var Total = CallDuration*CallCharges;
+		const callCharges=1200;
+		var callDuration = Number(prompt("Enter CallDuration : "));
+		if(callDuration>=60){
+			callDuration -= 5;
+            var total = callDuration*callCharges;
         }
-        else if(CallDuration>=30){
-        	CallDuration -=3;
-            var Total = CallDuration*CallCharges;
+        else if(callDuration>=30){
+        	callDuration -=3;
+            var total = callDuration*callCharges;
         }
         else{
-        	CallDuration -= 1;
-            var Total = CallDuration*CallCharges;
+        	callDuration -= 1;
+            var total = callDuration*callCharges;
         }
-        alert('Your call duration is: '+CallDuration+'Minute'+'\n'+ 'Your CallCharges is : '+ Total);
+        alert('Your call duration is: '+callDuration+'Minute'+'\n'+ 'Your CallCharges is : '+ total);
 	}
 
 </script>

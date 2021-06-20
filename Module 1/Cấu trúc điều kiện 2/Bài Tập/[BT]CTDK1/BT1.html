@@ -6,12 +6,12 @@
 </head>
 <body>
  <script>
-        var number1 =parseInt(prompt('Nhập vào giá trị của a :', 0));
-        var number2 =parseInt(prompt('Nhập vào giá trị của b:',0));
-        var sodu = number1%number2;
-        switch(sodu){
-        	case 0: alert("a chia hết cho b");break;
-        default: alert("a không chia hết cho b !");
+        var number1 =parseInt(prompt('Enter number1 :', 0));
+        var number2 =parseInt(prompt('Enter number2 :', 0));
+        var surplus = number1%number2;
+        switch(surplus){
+        	case 0: alert(number1+ "divisible "+ number2);break;
+        default: alert(number1 + " not divisible " + number2);
         }
     </script>
 </body>

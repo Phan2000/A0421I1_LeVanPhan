@@ -9,19 +9,19 @@
 	//Variable A-B-C : Biến a,b,c của phương trình
 	//Solution : Nghiệm phương trình
 
-	var VariableA= Number(prompt("Enter VariableA : "));
-	var VariableB= Number(prompt("Enter VariableB : "));
-	var VariableC= Number(prompt("Enter VariableC : "));
-	var Delta = VariableB*VariableB-4*VariableA*VariableC;
+	var variableA= Number(prompt("Enter Variable A : "));
+	var variableB= Number(prompt("Enter Variable B : "));
+	var variableC= Number(prompt("Enter Variable C : "));
+	var delta = variableB*variableB-4*variableA*variableC;
 
-	if(Delta>0){
-		var Solution1=(-VariableB+Math.sqrt(Delta))/2*VariableA;
-		var Solution2=(-VariableB-Math.sqrt(Delta))/2*VariableA;
-		alert("The equation has 2 distinct solutions :"+'\n'+'X1 = ' + Solution1 +'\n' + 'X2 = '+ Solution2 );
+	if(delta>0){
+		var solution1=(-variableB+Math.sqrt(delta))/2*variableA;
+		var solution2=(-variableB-Math.sqrt(delta))/2*variableA;
+		alert("The equation has 2 distinct solutions :"+'\n'+'X1 = ' +  solution1 +'\n' + 'X2 = '+  solution2 );
 	}
-	else if(Delta == 0){
-		var Solution = -VariableB/2*VariableA;
-		alert("The only solution of the equation is X= "+ Solution);
+	else if(delta == 0){
+		var  solution = -variableB/2*variableA;
+		alert("The only solution of the equation is X= "+  solution);
 	}
 	else{
 		alert("Sorry. The equation has no solution ! ");

@@ -13,26 +13,26 @@
 
 <script type="text/javascript">
 
-	function FeettoMeter (feet) {
+	function feettoMeter (feet) {
 
 		return  0.305 * feet;
 		
 	
 	}
 
-	function MetertoFeet(meter){
+	function metertoFeet(meter){
 		return  3.279 * meter;
 		
 	}
 
-	function Convert1(){
+	function convert1(){
 		let in1 = document.getElementById('in1').value;
-		document.getElementById('in2').value = FeettoMeter(parseFloat(in1));
+		document.getElementById('in2').value = feettoMeter(parseFloat(in1));
 		
 	}
-	function Convert2 (){
+	function convert2 (){
 		let in3 = document.getElementById('in1').value;
-		document.getElementById('in2').value = MetertoFeet(parseFloat(in3));
+		document.getElementById('in2').value = metertoFeet(parseFloat(in3));
 	}
 
 

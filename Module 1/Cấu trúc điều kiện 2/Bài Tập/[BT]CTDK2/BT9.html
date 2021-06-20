@@ -5,14 +5,14 @@
 </head>
 <body>
 <script type="text/javascript">
-	var EdgeA = parseFloat(prompt("Enter here : "));
-	var EdgeB = parseFloat(prompt("Enter here : "));
-	var EdgeC = parseFloat(prompt("Enter here : "));
-	if(EdgeA>0 && EdgeB>0 && EdgeC>0){
-		let ab = EdgeA+EdgeB;
-		let ac = EdgeA+EdgeC;
-		let bc = EdgeB+EdgeC;
-		if (ab>EdgeC && bc>EdgeA && ac>EdgeB) {
+	var edgeA = parseFloat(prompt("Enter here : "));
+	var edgeB = parseFloat(prompt("Enter here : "));
+	var edgeC = parseFloat(prompt("Enter here : "));
+	if(edgeA>0 && edgeB>0 && edgeC>0){
+		let ab = edgeA+edgeB;
+		let ac = edgeA+edgeC;
+		let bc = edgeB+edgeC;
+		if (ab>edgeC && bc>edgeA && ac>edgeB) {
 			alert("These are the three sides of a triangle ! ");
 		}
 		else{

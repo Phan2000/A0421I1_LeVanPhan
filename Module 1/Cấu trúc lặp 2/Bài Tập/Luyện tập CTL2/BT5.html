@@ -10,16 +10,16 @@
 	//Duration: thời hạn
 	//InterestRate : Lãi suất
 	//Interest : tiền lãi
-	var Rental = parseInt(prompt("Enter Rental : "));
-	var Duration = parseInt(prompt("Enter Duration:"));
-	var InterestRate =parseInt(prompt("InterestRate (%) : "));
-	var Total =0;
-	for(i=1;i<=Duration;i++){
-		Interest=Rental*(InterestRate/100);		
-		Rental+=Interest;		
-		Total+=Interest;
+	var rental = parseInt(prompt("Enter Rental : "));
+	var duration = parseInt(prompt("Enter Duration:"));
+	var interestRate =parseInt(prompt("InterestRate (%) : "));
+	var total =0;
+	for(i=1;i<=duration;i++){
+		interest=rental*(interestRate/100);		
+		rental+=interest;		
+		total+=interest;
 	}
-	document.write("Your Interest is : "+ Total);
+	document.write("Your Interest is : "+ total);
 
 </script>
 </body>
