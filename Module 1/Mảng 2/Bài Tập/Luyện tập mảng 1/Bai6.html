@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BT6</title>
+</head>
+<body>
+<script type="text/javascript">
+	var number=parseInt(prompt("Nhập số phàn tử trong mảng : "));
+	var flag = false;
+
+	var arr=[];
+
+	for(let i=0;i<number;i++){
+		arr[i]=prompt("Nhập số nguyên thứ " + i +"vào đây : ");
+	}
+
+	for(let j=0;j<arr.length;j++){
+		if(arr[j]==='V'){
+			flag = true;
+			break;
+		}
+	}
+
+	if(flag == true){
+		alert("V có trong mảng");
+	}else{
+		alert("V không có trong mảng");
+	}
+</script>
+</body>
+</html>

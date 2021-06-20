@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Quanlysanpham</title>
+</head>
+<body>
+<script type="text/javascript">
+    
+    var array = ["Sony Xperia","Samsung Galaxy","Nokia 6","Xiaomi Redmi Note 5","Appele Iphone 6S","Xiaomi 5 Plus","Apple Iphone 8 Plus "];
+    function displayProduct(){
+        document.body.innerHTML = "";
+        document.write("<h2>Add New Product</h2>");
+        document.writeln("<input id='in1' type='text'><button style='background-color:lime;' onclick='addProduct()'>Add</button>");
+        document.write("<h2>Display All Product</h2>");
+        document.write("<table border='1' width='35%' cellpadding ='5' cellspacing='0' > ");
+        document.write("<tr>");
+            document.write("<th>Name Product</th>");
+            document.write("<th colspan='2'>"+array.length +" Product</th>");
+        document.write("</tr>");
+        for(i=0;i<array.length;i++){
+            document.write("<tr>");
+                document.write("<td>"+array[i]+"</td>");
+                document.write("<td>"+"<button style='background-color:lime;' onclick='editProduct(" + i + ")'>"+"Edit"+"</button>"+"</td>");
+                document.write("<td>"+"<button style='background-color:lime;' onclick='deleteProduct(" + i + ")'>"+"Delete"+"</button>"+"</td>");
+            document.write("</tr>");
+        }
+         document.write("</table>");
+    }
+
+    function addProduct(){ 
+        let product = document.getElementById('in1').value;
+        array.push(product);
+        displayProduct();
+        
+    }
+
+    function deleteProduct(i){
+        if (confirm("Bạn thực sự muốn xóa " + array[i] + "?"))
+            array.splice(i, 1);
+            displayProduct();
+    }
+
+    function editProduct(i){
+        document.body.innerHTML = "";
+        document.write("<h2>Add New Product</h2>");
+        document.writeln("<input id='in1' type='text'><button onclick='addProduct()'>Add</button>");
+        document.write("<h2>Display All Product</h2>");
+        document.write("<table border='1' width='35%' cellpadding ='5'>");
+        document.write("<tr>");
+            document.write("<th>Name Product</th>");
+            document.write("<th colspan='2'>"+array.length +" Product</th>");
+        document.write("</tr>");
+        for(i=0;i<array.length;i++){
+            document.write("<tr>");
+                document.write("<td><input id='editValueOfProduct' value='" + array[i] + "'></td>");
+                document.write("<td> <button onclick='successEdit(" + i + ")'>Update</button></td>");
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    }
+    function successEdit(i){
+        let product = document.getElementById("editValueOfProduct").value;
+        array[i] = product;
+        displayProduct();
+    }
+   displayProduct();
+</script>
+</body>
+</html>

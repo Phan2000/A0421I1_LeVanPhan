@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BT9</title>
+</head>
+<body>
+<script type="text/javascript">
+	var n = parseInt(prompt("Nhap vao so phan tu trong mang : "));
+    var array1 = [];
+    var array2 = [];
+    for(i=0;i<n;i++){
+       	array1[i]=parseInt(prompt(" a "+ i + " :"));
+
+       	array2[i]=parseInt(prompt(" b "+ i + " :"));
+    }
+
+    var array = array1.concat(array2);
+    array.sort(function(a,b){
+    	return b-a;
+    })
+    document.write(array);
+
+</script>
+</body>
+</html>

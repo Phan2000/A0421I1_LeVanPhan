@@ -1,0 +1,43 @@
+body {
+    padding: 400px;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+
+}
+
+table {
+    width: 50%;
+    margin-left: 25%;
+    border-collapse: collapse;
+    border-color: gold;
+
+}
+
+th{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    font-size:13px;
+    padding:20px 20px 20px 20px;
+    text-align: center;
+
+
+}
+tr{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:200;
+    color:gold;
+    text-align:center;
+    padding:20px;
+    background-color: gold;
+}
+td{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    font-size:13px;
+    padding:20px 20px 20px 20px;
+    text-align: center;
+}

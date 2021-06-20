@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt8</title>
+</head>
+<body>
+<script type="text/javascript">
+	var n = parseInt(prompt("Nhap vao so phan tu trong mang : "));
+    var arr = [];
+    for(i=0;i<n;i++){
+    	arr[i]=prompt("Nhap vao phan tu thu "+ i + ":");
+    }
+    function daoNguocMang(arr1){
+    	let first =0;
+		let last = arr1.length-1;
+		while(first < last){
+			let b = arr1[first];
+			arr1[first]=arr1[last];
+			arr1[last]=b;
+			first++;
+			last--;
+		}
+	 	return arr1;
+    }alert(daoNguocMang(arr));
+</script>
+</body>
+</html>

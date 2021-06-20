@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KTSNT</title>
+</head>
+<body>
+<script type="text/javascript">
+        var numbers = Number(prompt("Nhap vao numbers : "));
+        var Count = 0;
+        var n = 2;
+        var primeNumbers = "";
+        for (Count = 1; Count <= numbers; Count++)
+        {
+            var counter=0;
+            for(n =Count; n>=1; n--)
+            {
+                if(Count%n==0)
+                {
+                    counter = counter + 1;
+                }
+            }
+            if (counter ==2)
+            {
+                primeNumbers = primeNumbers + Count + " ";
+            }
+        }
+        document.write("Các số nguyên tố từ 1 đến "+ numbers +" là:");
+        document.write(primeNumbers);
+</script>
+</body>
+</html>

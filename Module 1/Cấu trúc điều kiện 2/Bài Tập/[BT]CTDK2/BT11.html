@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT11</title>
+</head>
+<body>
+<script type="text/javascript">
+	//Income: Thuế suất
+	//TaxMoney : Tiền thuế 
+
+	var Income = Number(prompt("Enter here : "));
+	if(Income> 80){
+		let TaxMoney = Income*(35/100);
+		alert("Your Tax Money is =:"+TaxMoney);
+	}
+	else if(Income>52){
+		let TaxMoney = Income*(30/100);
+		alert("Your Tax Money is =:"+TaxMoney);
+	}
+	else if(Income>32) {
+		let TaxMoney = Income*(25/100);
+		alert("Your Tax Money is  : "+TaxMoney);
+	}
+	else if(Income>18){
+		let TaxMoney = Income*(20/100);
+		alert("Your Tax Money is  : "+TaxMoney);
+	}
+	else if(Income>10){
+		let TaxMoney = Income*(15/100);
+		alert("Your Tax Money is =:"+TaxMoney);
+	}
+	else{
+		let TaxMoney = Income*(10/100);
+		alert("Your Tax Money is  : "+TaxMoney);
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt6</title>
+</head>
+<body>
+<script type="text/javascript">
+	var n=parseInt(prompt("Nhap do dai cua chuoi : "));
+	var arr=[];
+	for(i=0;i<n;i++){
+		arr[i]= prompt("Nhap phan tu trong chuoi : ");
+	}
+	function kiemTraMang(){
+		for(i=0;i<n;i++){
+			if(arr[i]==="-"){
+				arr[i]="_";
+			}
+		}
+		return arr;
+	}
+
+	var str=ktraMang(arr);
+	document.write(str);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT4</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	//number1,number2,number3 là 3 số nguyên được người dùng nhập vào để kiểm tra xem số nào lớn nhất, số lớn nhất đưuọc trả về giá trị Max.
+	var number1 = Number(prompt("Enter number1 : "));
+	var number2 = Number(prompt("Enter number2 : "));
+	var number3 = Number(prompt("Enter number3 : "));
+	var Max = number1>number2?(number1>number3?Max=number1:Max=number3):(number2>number3?Max=number2:Max=number3);
+	alert("Max = "+Max);
+</script>
+</body>
+</html>

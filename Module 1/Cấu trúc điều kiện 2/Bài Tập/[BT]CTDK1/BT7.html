@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT7</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	//Method : Phương thức cuộc gọi
+	//CallDuration : Thời hạn cuộc gọi
+	//CallCharges : Cước phí cuộc gọi
+	//Total : Tổng cước phí sau gọi
+	var Method=prompt("Enter Call Method : ");
+	if(Method == 'Noimang'){
+		const CallCharges=900;
+		var CallDuration = Number(prompt("Enter CallDuration : "));
+		if(CallDuration>=60){
+			CallDuration -= 5;
+            var Total = CallDuration*CallCharges;
+        }
+        else if(CallDuration>=30){
+        	CallDuration -=3;
+            var Total =CallDuration*CallCharges;
+        }
+        else{
+        	CallDuration -= 1;
+            var Total = CallDuration*CallCharges;
+        }
+        alert('Your call duration is: '+CallDuration+' Minute'+'\n'+ 'Phí cuộc gọi là: '+Total);
+	}
+	else{
+		const CallCharges=1200;
+		var CallDuration = Number(prompt("Enter CallDuration : "));
+		if(CallDuration>=60){
+			CallDuration -= 5;
+            var Total = CallDuration*CallCharges;
+        }
+        else if(CallDuration>=30){
+        	CallDuration -=3;
+            var Total = CallDuration*CallCharges;
+        }
+        else{
+        	CallDuration -= 1;
+            var Total = CallDuration*CallCharges;
+        }
+        alert('Your call duration is: '+CallDuration+'Minute'+'\n'+ 'Your CallCharges is : '+ Total);
+	}
+
+</script>
+</body>
+</html>

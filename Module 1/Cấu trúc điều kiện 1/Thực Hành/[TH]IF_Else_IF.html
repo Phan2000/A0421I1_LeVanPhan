@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TH</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script>
+	var userName=prompt("Who's there ?",'');
+	if(userName=='Admin'){
+		let password = prompt("Password : ");
+		if (password=='TheMaster') {
+			alert('Welcome!');
+		}
+		else if(password==='null'){
+			alert('Canceled !');
+		}
+		else{
+			alert("Wrong password !");
+		}
+	}
+	else if(userName=='null'){
+		alert('Canceled!');
+	}
+	else{
+		alert("I don't Know you!");
+	}
+
+</script>
+</body>
+</html>

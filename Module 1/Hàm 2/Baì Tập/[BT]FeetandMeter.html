@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Feet and Meter</title>
+
+</head>
+<body>
+<input type="text" id="in1">
+<button onclick="Convert1()">FeettoMeter</button>
+<button onclick="Convert2()">MetertoFeet</button>
+<input type="text" id="in2">
+
+<script type="text/javascript">
+
+	function FeettoMeter (feet) {
+
+		return  0.305 * feet;
+		
+	
+	}
+
+	function MetertoFeet(meter){
+		return  3.279 * meter;
+		
+	}
+
+	function Convert1(){
+		let in1 = document.getElementById('in1').value;
+		document.getElementById('in2').value = FeettoMeter(parseFloat(in1));
+		
+	}
+	function Convert2 (){
+		let in3 = document.getElementById('in1').value;
+		document.getElementById('in2').value = MetertoFeet(parseFloat(in3));
+	}
+
+
+
+
+</script>
+</body>
+</html>

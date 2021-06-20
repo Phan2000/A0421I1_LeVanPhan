@@ -1,0 +1,21 @@
+table {
+    width: -50%;
+    border-collapse: collapse;
+    border:1px  solid black;
+
+}
+h2{
+    font-family:'Open Sans', sans-serif;
+    color: blue; 
+}
+
+td{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    font-size:13px;
+    padding:20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+

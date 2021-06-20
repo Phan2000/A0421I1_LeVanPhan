@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BT8</title>
+</head>
+<body>
+<script type="text/javascript">
+	 var n = parseInt(prompt("Nhap vao so phan tu trong mang : "));
+     var arr = [];
+     for(i=0;i<n;i++){
+        arr[i]=prompt("Nhap vao phan tu thu "+ i + ":");
+     }
+
+     
+	arr.sort(function(a, b){return b - a});
+	alert(arr);
+</script>
+</body>
+</html>

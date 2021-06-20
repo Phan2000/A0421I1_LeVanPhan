@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT7</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	//Variable A-B-C : Biến a,b,c của phương trình
+	//Solution : Nghiệm phương trình
+
+	var VariableA= Number(prompt("Enter VariableA : "));
+	var VariableB= Number(prompt("Enter VariableB : "));
+	var VariableC= Number(prompt("Enter VariableC : "));
+	var Delta = VariableB*VariableB-4*VariableA*VariableC;
+
+	if(Delta>0){
+		var Solution1=(-VariableB+Math.sqrt(Delta))/2*VariableA;
+		var Solution2=(-VariableB-Math.sqrt(Delta))/2*VariableA;
+		alert("The equation has 2 distinct solutions :"+'\n'+'X1 = ' + Solution1 +'\n' + 'X2 = '+ Solution2 );
+	}
+	else if(Delta == 0){
+		var Solution = -VariableB/2*VariableA;
+		alert("The only solution of the equation is X= "+ Solution);
+	}
+	else{
+		alert("Sorry. The equation has no solution ! ");
+	}
+</script>
+</body>
+</html>

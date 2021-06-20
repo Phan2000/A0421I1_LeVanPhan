@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dictionary</title>
+</head>
+<body>
+	<input type="text" id="in-1"  placeholder="Vietnamese" > 
+	<button onclick="VtoE()"  style="width:5% ; height: 20px">Translate</button>
+	<p id="result"></p>
+<script type="text/javascript">
+	var str1 = ["Xin Chào","Tạm biệt"];
+	var str2 = ["Hello","Goodbye"];
+	function VtoE (){
+		var word1 = document.getElementById('in-1').value;
+		for(let i=0;i<str1.length;i++){
+			if(word1 === str1[i]){
+				document.getElementById('result').innerHTML=str2[i];
+			}
+
+		}
+	}
+</script>
+</body>
+</html>

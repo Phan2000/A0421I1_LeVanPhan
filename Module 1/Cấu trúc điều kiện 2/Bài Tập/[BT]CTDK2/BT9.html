@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT9</title>
+</head>
+<body>
+<script type="text/javascript">
+	var EdgeA = parseFloat(prompt("Enter here : "));
+	var EdgeB = parseFloat(prompt("Enter here : "));
+	var EdgeC = parseFloat(prompt("Enter here : "));
+	if(EdgeA>0 && EdgeB>0 && EdgeC>0){
+		let ab = EdgeA+EdgeB;
+		let ac = EdgeA+EdgeC;
+		let bc = EdgeB+EdgeC;
+		if (ab>EdgeC && bc>EdgeA && ac>EdgeB) {
+			alert("These are the three sides of a triangle ! ");
+		}
+		else{
+			alert("These aren't the three sides of a triangle !");
+		}
+	}
+</script>
+</body>
+</html>

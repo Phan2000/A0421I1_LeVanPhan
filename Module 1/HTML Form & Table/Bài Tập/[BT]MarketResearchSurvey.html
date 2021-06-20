@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="Surveystyle.css">
+<head>
+	<title>Survey</title>
+	<meta charset="utf-8">
+</head>
+<body><form action="" method="">
+<header><div>
+	<h1 class="h1-1">Market Research Survey</h1>
+	<label class="la-1">Please take a few moments to complete this satisfaction survey.</label>
+</div></header>
+<div>
+	<label> What is your age range ?</label><br>
+	<select>
+		<option value="age">18-24</option>
+		<option value="age">25-34</option>
+		<option value="age">35-50</option>
+		<option value="age">50+</option>
+	</select>
+</div>
+<div>
+	<label >What is yearly income range ?</label><br>
+	<select>
+		<option value="income range">$0-$25.000</option>
+		<option value="income range">$25.001-$50.000</option>
+		<option value="income range">$50.001-$100.000</option>
+		<option value="income range">$100.000+</option>
+	</select>
+</div>
+<div class="div">
+	<label>Gender Indentify</label><br>
+	<input type="radio" name="rd"/> Male <br/>
+    <input type="radio" name="rd"/> Fe-male<br/>
+    <input type="radio" name="rd"/> Nonbinary <br/>
+    <input type="radio" name="rd"/> Other<br/>
+    <input type="text" name="name">
+
+</div>
+<div class="div">
+	<label>Which of the following products have your purchased in the last 2 month . Please check all that apply!</label><br>
+	<input type="checkbox" name="name">Product 1<br>
+	<input type="checkbox" name="name">Product 2<br>
+	<input type="checkbox" name="name">Product 3<br>
+	<input type="checkbox" name="name">Product 4<br>
+</div>
+<div class="div">
+	<label>How often would you use our new product ?</label><br>
+	<input type="radio" name="rd"/> Daily<br/>
+    <input type="radio" name="rd"/> Weekly <br/>
+    <input type="radio" name="rd"/> Monthly<br/>
+</div>
+<div>
+	<label>What would you pay for the new product ?</label><br>
+	$<input class="in-3" type="text" name="name">.<input class="in-2" type="text" name="name">
+	     <pre>       Dollars         Cents</pre>
+</div>
+<div>
+	<label>What features would you like to see in the new product.</label><br>
+	<textarea rows="10" cols="100"></textarea></div>
+<div>
+	<label>Pleae rate your level of agreemeent with the following statements.</label><br>
+	<table>
+		<tr class="tr-1">
+			<td></td>
+			<td>Strongly disagree</td>
+			<td>Disagree</td>
+			<td>Agree</td>
+			<td>Strongly agree</td>
+		</tr>
+		<tr>
+			<td>Our products are priced fairly</td>
+			<td><input type="radio" name="radio"><br>1</td>
+			<td><input type="radio" name="radio"><br>2</td>
+			<td><input type="radio" name="radio"><br>3</td>
+			<td><input type="radio" name="radio"><br>4</td>
+		</tr>
+		<tr class="tr-1">
+			<td>Our products are high quality</td>
+			<td><input type="radio" name="radio"><br>1</td>
+			<td><input type="radio" name="radio"><br>2</td>
+			<td><input type="radio" name="radio"><br>3</td>
+			<td><input type="radio" name="radio"><br>4</td>
+		</tr>
+		<tr>
+			<td>You would recommend our product to a friend or coworker.</td>
+			<td><input type="radio" name="radio"><br>1</td>
+			<td><input type="radio" name="radio"><br>2</td>
+			<td><input type="radio" name="radio"><br>3</td>
+			<td><input type="radio" name="radio"><br>4</td>
+		</tr>
+	</table>
+</div>
+<div><input type="button" name="button" value="submit"></div>
+</form>
+</body>
+</html>

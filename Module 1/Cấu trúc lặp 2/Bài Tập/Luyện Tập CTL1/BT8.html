@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+	<button onclick="Rand()">Chơi</button>
+    <script type="text/javascript">
+    	
+    	function Rand(){
+    		var number1=parseInt(prompt("Enter number1 here : "));
+    		var number2=parseInt(prompt("Enter number2 here : "));
+    		var count =1;
+    		
+    		//NHap number1 phai lon hơn number 2.
+
+    		var numbers = parseInt(Math.floor((Math.random() * number1) + number2));
+    		alert(numbers);
+    		while(count <4){
+	    	var guess = parseInt(prompt("Enter guess : "));
+	    		if(guess === numbers){
+		    		alert('VeryGOOD !');
+		    		break;
+		    			
+		    	}
+		    	else if(guess>numbers){
+		    		alert("Too big, play again ");
+		    	}else{
+		    		alert("Too small, play again");
+		    	}
+		    	
+		    	count++;
+		    }if(count>=4){
+				alert("Sorry, you lose !");
+		    	
+		}
+		    }
+		
+    </script>
+</body>
+</html>

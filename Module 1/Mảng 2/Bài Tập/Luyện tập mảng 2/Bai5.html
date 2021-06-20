@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt5</title>
+</head>
+<body>
+<script type="text/javascript">
+	var Length = parseInt(prompt("Nhap do dai cua chuoi"));
+	var arr1 = [];
+	var arr2 = [];
+	var count=0;
+	for (var i = 0; i < Length; i++) {
+		arr1[i]=prompt("arr1 :"+ i +":");
+		arr2[i]=prompt("arr2 :"+ i +":");
+	}
+	for(j=0;j<Length;j++){
+		if(arr2[j]==arr1[j])
+			count++;
+	}
+	if(count=0||count<Length){
+		document.write("2 chuoi khac nhau ");
+	}else{
+		document.write("2 chuoi giong nhau ");
+	}
+
+</script></body>
+</html>

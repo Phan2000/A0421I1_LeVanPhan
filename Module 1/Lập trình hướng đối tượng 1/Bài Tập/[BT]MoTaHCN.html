@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MotaHCN</title>
+</head>
+<body>
+	<canvas id="myCanvas" width="1366px" height="768px" style="border-color: red;"></canvas>
+<script type="text/javascript">
+	class Rectangle{
+		constructor(dai,rong){
+			this.dai=dai;
+			this.rong=rong;
+		}
+		setDai(dai){
+			this.dai=dai;
+		}
+		getDai(){
+			return this.dai;
+		}
+		setRong(rong){
+			this.rong=rong;
+		}
+		getRong(){
+			return this.rong;
+		}
+		getChuvi(){
+			return (this.dai+this.rong)*2;
+		}
+		getDientich(){
+			return this.dai*this.rong;
+		}
+		getHienthi(){
+			var canvas = document.getElementById("myCanvas");
+			var ctx = canvas.getContext('2d');
+			ctx.fillStyle = "Black";
+			ctx.fillRect(0,0,250,150);
+		}
+	}
+
+	var Rectangle1 = new Rectangle(250,150);
+
+	alert(Rectangle1.getChuvi());
+
+	alert(Rectangle1.getDientich());
+
+	Rectangle1.getHienthi();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BT2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var arr = []	
+	for(i=0;i<10;i++){
+		arr[i]=parseInt(prompt("Enter here : "));
+	
+	}alert(arr);
+	var max = arr[0];
+	var s = 0;
+	for(j=0;j<arr.length;j++){
+		
+		if(arr[j]>max){
+			max =arr[j];
+		}
+		s+=arr[j];
+	}alert('Trung binh la : '+(s/arr.length) +'\n'+"Max là : "+ max);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+	line-height: 01cm;
+	cursor: pointer;
+}
+table{
+	border-collapse: collapse;
+	border :1px solid black;
+	text-align: center;
+}
+td{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+tr.tr-1{
+	background-color: gainsboro;
+}
+h1{
+	font-size: 25px;
+	font-family:  Lucida Sans Unicode, sans-serif;
+	line-height: .08cm;
+	cursor: auto;
+
+}
+label.la-1{
+	font-family: "Lucida Sans Unicode";
+	color: #555555;
+	font-size: 16px;
+	letter-spacing:0.01cm;
+	line-height: 01cm;
+	cursor: auto;
+}
+label{
+	font-family: Tahoma,sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: auto;
+}
+pre{
+	font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+	font-size: 14px;
+}
+input.in-2{
+	width: 18px;
+}
+input.in-3{
+	width: 100px;
+}
+header{
+	border-bottom: 1px dotted grey;
+	line-height: 01cm;
+}
+select{
+	width: 300px;
+	font-size: 120%;
+}

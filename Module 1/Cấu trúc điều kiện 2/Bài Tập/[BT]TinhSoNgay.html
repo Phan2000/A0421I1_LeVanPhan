@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day</title>
+</head>
+<body>
+<table>
+	<tr>
+		<td><input type="text" id="in-1"></td>
+		<td><button onclick="day()">Tinh so ngay</button></td>
+	</tr>
+</table>
+<script type="text/javascript">
+	function day() {
+		var month = parseInt(document.getElementById('in-1').value);
+		switch(month){
+			case 1:
+			case 3:
+			case 5:
+			case 7:
+			case 8:
+			case 10:
+			case 12:
+				alert("Thang co 31 ngay");break;
+			case 4:
+			case 6:
+			case 9:
+			case 11:
+				alert("Thang co 30 ngay");break;
+			case 2:
+				var year = parseInt(prompt("Enter a year"));
+				var isLeap = false;
+				if (year % 4 == 0) {
+				  if (year % 100 == 0) {
+				    if (year % 400 == 0) {
+				      isLeap = true;
+				    }
+				  } else {
+				    	isLeap = true;
+				  }
+				}
+
+				if (isLeap) {
+				  alert("Thang có 29 ngay");
+				} else {
+				  alert("Thang co 28 ngay");
+				}
+						}
+					}
+	
+</script>
+</body>
+</html>

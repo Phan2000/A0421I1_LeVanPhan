@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function temperatureConverter(F) {
+        let C = (F-32)/1.8;
+        return C;
+    }
+    var temperature = parseFloat(prompt("Enter the temperature : "));
+    var result = temperatureConverter(temperature);
+    alert("Result = "+result);
+</script>
+</body>
+</html>

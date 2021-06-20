@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var arr=['c','s','c','2','6','1'];
+	var first = 0;
+	var last = arr.length - 1;
+	while (first < last) {
+	    let number = arr[first];
+	    arr[first] = arr[last];
+	    arr[last] = number;
+	    first++;
+	    last--;
+}
+var str = arr.join();
+document.write(str);
+</script>
+</body>
+</html>

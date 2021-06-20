@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT5</title>
+</head>
+<body>
+<script type="text/javascript">
+	//TestMark:Điểm kiểm tra
+	//MidtermScore:Điểm giữa kỳ
+	//EndPoint:Điểm cuối kỳ
+	//MediumScore:Điểm trung bình dùng để kiểm tra loại học lực 
+	var TestMarks = Number(prompt("Enter here : "));
+	var MidtermScore = Number(prompt("Enter here : "));
+	var EndPoint = Number(prompt("Enter here : "));
+	MediumScore = TestMarks*0.2+MidtermScore*0.3+EndPoint*0.5;
+	if (MediumScore>8.5) {
+		alert('Excellent!');}
+		else if (MediumScore>6.9) {
+			alert('Good !')}
+			else if(MediumScore>5.4){
+				alert('Average Good !')}
+				else if (MediumScore>3.9) {
+					alert('Good !')}
+				else{
+					alert('Bad !')
+				}
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt5</title>
+</head>
+<body>
+<script type="text/javascript">
+	var str1 =["Polaris", "Aldebaran", "Deneb", "Vega", "Altair"," Dubhe","Regulu"];
+	var str2 =["Ursa Minor", "Tarurus", "Cygnus", "Lyra"," Aquila"," Ursa Major"," Leo"];
+	var str="";
+	function myFunction(str) {
+		str=prompt("Nhập vào tham số duy nhất : ");
+		for(i=0;i<str1.length;i++){
+			if(str==str1[i]){
+				return i;
+			}
+		}
+	}
+	alert(str2[myFunction()]);
+</script>
+</body>
+</html>

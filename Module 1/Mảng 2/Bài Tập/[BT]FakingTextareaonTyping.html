@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faking Textarea</title>
+</head>
+<body onload="gatHaiNiemVui()" style="text-align: center;">
+
+    <h2>Faking Textarea on Typing</h2>
+    <form>
+        <label>
+            <textarea cols="30" rows="5" id="txt"></textarea>
+        </label>
+    </form>
+<script type="text/javascript">
+    let array = [];
+    let str = "";
+    array[1] ='A';
+    array[2] ='h';
+    array[3] ='i';
+    array[4] ='h';
+    array[5] ='i';
+    array[6] =' ';
+    array[7] ='Đ';
+    array[8] ='ồ';
+    array[9] =' ';
+    array[10] ='H';
+    array[11] ='ọ';
+    array[12] ='c';
+    array[13] =' ';
+    array[14] ='D';
+    array[15] ='ố';
+    array[16] ='t';
+
+    function gatHaiNiemVui()
+    {
+        let str1 = document.getElementById("txt").value;
+        for(let i = 1; i <= str1.length; i++)
+        {
+            str = str + array[i];
+            if (i === 17)
+            {
+                str = "";
+            }
+        }
+        document.getElementById("txt").value = str;
+        str = "";
+        setTimeout('gatHaiNiemVui()', 1);
+    }
+
+</script>
+
+</body>
+</html>

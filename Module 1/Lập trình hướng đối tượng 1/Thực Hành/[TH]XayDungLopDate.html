@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class Date{
+
+        	
+            setDay(day){
+            	this.day = day;
+            }
+            getDay(){
+            	return this.day;
+            }
+
+            setMonth(month){
+            	this.month = month;
+            }
+            getMonth(){
+            	return this.month;
+            }
+
+            setYear(year){
+            	this.year = year;
+            }
+            getYear(){
+            	return this.year;
+            }
+            
+            
+        }
+
+        var date1 = new Date();
+        date1.setDay(1);
+        date1.setMonth(1);
+        date1.setYear(1999);
+
+        alert("Day :"+date1.getDay()+"\nMonth :"+date1.getMonth()+"\nYear :"+date1.getYear());
+    </script>
+</body>
+</html>
