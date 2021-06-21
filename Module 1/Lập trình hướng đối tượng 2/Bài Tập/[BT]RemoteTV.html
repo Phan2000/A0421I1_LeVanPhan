@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Remote TV</title>
+</head>
+<body>
+
+<button onclick="start()" id="Stt">TV ON/OFF</button>
+<button id="up" >Volume Up</button>
+<button id="down" >Volume Down</button>
+<script type="text/javascript">
+	class remote(){
+		constructor(code){
+			this.code =  code ;
+		}
+
+		onOff(){
+			var stt1 = document.getElementById('Stt').value;
+			if(stt1==true){
+				return true;
+			}else{
+				return false;
+			}
+		}
+
+		changeTheChannel(code){
+			if(this.code == 3){
+				return true; 
+			}
+			if(this.code == 7){
+				return false;
+			}
+		}
+
+		changeVolume(){
+			if (true) {
+
+			}
+		}
+	}
+
+	class tiVi(){
+		constructor(chanel,volume,status){
+			this.chanel = chanel ;
+			this.volume = volume ;
+			this.status = status ;
+		}
+
+		start(){
+			if(remote1.onOff()){
+				alert("TV đã bật ");
+			}else{
+				alert("TV OFF");
+			}
+		}
+
+		changeChannel(){
+			if(remote1.changeTheChannel()){
+				alert("Here is Chanel 3 ");
+			}else{
+				alert("Here is Chanel 7 ");
+			}
+
+		}
+
+		changeVolume(){
+
+		}
+	}
+
+	var remote1 = new remote(parseInt(prompt(" Enter Chanel : ")));
+
+</script>
+</body>
+</html>
