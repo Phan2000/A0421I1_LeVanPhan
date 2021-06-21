@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Rat {
+        constructor(name,weigth,speed,status) {
+            this.name = name ;
+            this.weight = weigth ;
+            this.speed = speed ;
+            this.status = status ;
+        }
+
+        say(){
+            if(!this.beingEaten()){
+                alert("Chit Chit");
+            }
+        }
+
+        statusMouse(){
+            if(this.status == true ){
+                alert("Mouse is Alive");
+                return true;
+                
+            }else{
+                alert("Mouse was died");
+                return false;
+                
+            }
+        }
+
+        beingEaten(){
+            if(this.statusMouse() && cat.pursue()){
+                alert("Mouse was eaten");
+                return true;
+            }else if(this.statusMouse==false){
+                alert("Mouse was Died");
+                return false;
+            }else{
+                alert("mouse escape");
+            }
+
+        }
+
+    }
+    class Cat {
+        constructor(name, weight,maxspeed) {
+            this.name = name;
+            this.weight = weight;
+            this.maxspeed = maxspeed;
+
+        }
+        checkMouseDied() {
+            return !mouse.statusMouse();
+        }
+
+        pursue(){
+            if(this.maxspeed > mouse.speed){
+                return true;
+            }else{
+                return false;
+            }
+        }
+
+
+        eat(mouse) {
+            if(this.pursue()){
+                if(!this.checkMouseDied()) {
+                    this.weight+=1;
+                    mouse.weight-=1;
+                } else {
+                    alert("Mouse was died , Cat won't eat !");
+                }
+            }
+            else
+            {
+                alert("Cat didn't catch the mouse !")
+            }
+        }
+    }
+    let mouse = new Rat("Jerry", 1,40,true);
+    let cat = new Cat("Tom",5,30);
+    cat.eat(mouse);
+    mouse.say();
+    alert("Cat weight : "+ cat.weight + "\n" + "Mouse weight : " + mouse.weight);
+
+
+</script>
+</body>
+</html>
