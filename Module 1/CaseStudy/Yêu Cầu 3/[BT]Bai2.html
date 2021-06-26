@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var arrayA = [1,5,7,4,8,3];
+	var arrayB = [2,5,0,6,7,1,4,2,0,9,];
+	function missingValue(arrayA,arrayB){
+		for(let i=0;i<arrayA.length;i++)
+		{
+			for(let j=0;j<arrayB.length;j++)
+			{
+				if(arrayA[i]==arrayB[j])
+				{
+					arrayB.splice(j,1);
+					arrayB.sort();
+					for(let k=0;k<arrayB.length;k++)
+					{
+						if(arrayB[k]==arrayB[k+1])
+						{
+							arrayB.splice(k+1,1);
+						}
+					}
+				}
+			}
+		}
+		return arrayB;
+	}
+
+	alert(missingValue(arrayA,arrayB));
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt1</title>
+</head>
+<body>
+<script type="text/javascript">
+	var array = [1,2,3];
+	var newArray=[];
+	function prefixSums(array) {
+		newArray[0]=array[0];
+		for(i=1;i<array.length;i++){
+			newArray[i]=newArray[i-1]+array[i];
+		}
+		return newArray;
+	}
+
+	alert(prefixSums(array));
+
+</script>
+</body>
+</html>
