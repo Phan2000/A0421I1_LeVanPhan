@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt1</title>
+</head>
+<body>
+<script type="text/javascript">
+	var rows = parseInt(prompt("Enter number of rows : "));
+	var cols = parseInt(prompt("Enter number of cols : "));
+	var matrix=[],arrTemp=[];
+	
+	function addArray(rows,cols){
+		
+		for(let i=0;i<rows;i++){
+			arrTemp=[];
+			for(let j=0;j<cols;j++){
+				arrTemp[j] = parseInt(prompt("Enter element ["+j+"]"+" of matrix : "));
+			}
+			matrix.push(arrTemp);
+		}
+
+		return matrix;
+	}
+	function evenTotal(matrix){
+		let sum =0;
+		for(let i=0;i<matrix.length;i++){
+			for(let j=0;j<matrix[i].length;j++){
+				if(matrix[i][j]%2==0)
+				{
+				sum += matrix[i][j];
+				}
+			}
+		}
+		return sum;
+	}
+	addArray(rows,cols);
+	alert(evenTotal(matrix));
+
+</script>
+</body>
+</html>
