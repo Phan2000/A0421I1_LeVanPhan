@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var str = prompt("Enter your String : ");
+	function sort(str){
+		var string = str.split('').sort();
+		var count = 0;
+		for(i=0;i<string.length;i++){
+			if(string[i]!=string[i+1]){
+				count++;
+			}
+		}return count;
+	}
+
+	alert(sort(str));
+</script>
+</body>
+</html>

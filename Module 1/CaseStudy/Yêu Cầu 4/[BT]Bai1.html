@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt1</title>
+</head>
+<body>
+<script type="text/javascript">
+	var str=prompt("Enter your String : ");
+	function standardString(str){
+		var string  = str.split(' ');
+		var result = '' , temp;
+		for(i=0;i<string.length;i++)
+		{
+			temp = string[i].trim().toLowerCase();
+			if(temp!=''){
+				temp = temp.substr(0,1).toUpperCase()+temp.substr(1);
+				result+=temp+' ';
+			}
+		}return result;
+	}
+
+	alert(standardString(str));
+</script>
+</body>
+</html>

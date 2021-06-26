@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bt3</title>
+</head>
+<body>
+<script type="text/javascript">
+	var strA="aabccdf";
+	var strB="adcaadf";
+	function intersectionElement(s1,s2){
+		var arrayA=strA.split('').sort();
+		var arrayB=strB.split('').sort();
+		var count=0;
+		for(i=0;i<arrayA.length;i++){
+			if(arrayA[i]==arrayB[i]){
+				count++;
+			}
+		}return count;
+	}
+
+	alert("The number of intersecting elements is : " + intersectionElement(strA,strB));
+</script>
+</body>
+</html>
