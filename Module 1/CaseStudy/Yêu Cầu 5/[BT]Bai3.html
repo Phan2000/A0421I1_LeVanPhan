@@ -9,7 +9,6 @@
 	var rows = parseInt(prompt("Enter number of rows : "));
 	var cols = parseInt(prompt("Enter number of cols : "));
 	var matrix=[],arrTemp=[];
-	var count = 0 ;
 	
 	function addArray(rows,cols)
 	{
@@ -27,22 +26,30 @@
 		return matrix;
 	}
 
-	function maxInArray(matrix){
+	function maxInArray(matrix)
+	{
 		var max = matrix[0][0];
-		for(i=0;i<matrix.length;i++){
-			for(j=0;j<matrix[i].length;j++){
-				if(max<matrix[i][j]){
+		for(i=0;i<matrix.length;i++)
+		{
+			for(j=0;j<matrix[i].length;j++)
+			{
+				if(max<matrix[i][j])
+				{
 					max=matrix[i][j];
 				}
 			}
 		}return max;
 	}
 
-	function minInArray(matrix){
+	function minInArray(matrix)
+	{
 		var min = matrix[0][0];
-		for(i=0;i<matrix.length;i++){
-			for(j=0;j<matrix[i].length;j++){
-				if(min > matrix[i][j]){
+		for(i=0;i<matrix.length;i++)
+		{
+			for(j=0;j<matrix[i].length;j++)
+			{
+				if(min > matrix[i][j])
+				{
 					min = matrix[i][j];
 				}
 			}

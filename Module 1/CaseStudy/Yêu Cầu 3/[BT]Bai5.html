@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt5</title>
+</head>
+<body>
+<script>
+    class Product {
+        constructor(name, price, amount) {
+            this.name = name;
+            this.price = price;
+            this.amount = amount;
+        }
+    }
+
+    let arrayProduct = [];
+    arrayProduct.push(new Product("Cafe", 35000,0 ));
+    arrayProduct.push(new Product("Orange juice", 30000,0));
+    arrayProduct.push(new Product("Carrot juice", 25000,0));
+    arrayProduct.push(new Product("Tomato juice", 25000,0));
+    arrayProduct.push(new Product("Mineral water", 10000,0));
+    arrayProduct.push(new Product("Coconut water", 25000,0));
+
+    function displayProduct() 
+    {
+        document.body.innerHTML="";
+        document.write("<table border='1'width='35%' cellpadding ='5' cellspacing='0'>");
+            document.write("<tr>");       
+                document.write("<th>Drink name</th>");
+                document.write("<th>Value</th>");
+                document.write("<th width='25%'>Amount</th>");
+            document.write("</tr>");  
+
+        for (i = 0; i < arrayProduct.length; i++) 
+        {
+            document.write("<tr>");
+                document.write("<td>"+arrayProduct[i].name+"</td>");
+                document.write("<td style='text-align:center;'>"+arrayProduct[i].price+"</td>");
+                document.write("<td style='text-align:center;'><input type = 'text' id='"+i+"' placeholder='"+arrayProduct[i].amount+"'></td>");
+            document.write("</tr>");  
+        }
+        document.write("<tr>");
+            document.write("<td><button onclick='orderProduct("+i+")'>Confrim Order</button></td>");
+            document.write("<td colspan='2' style='text-align:center'><div id='result'></div></td>");
+        document.write("</tr>");  
+    }
+
+    function orderProduct()
+    {
+        var total = 0;
+            for(i=0; i<arrayProduct.length; i++)
+            {
+                arrayProduct[i].amount = document.getElementById(i).value;
+                if(arrayProduct[i].amount)
+                {
+                    arrayProduct[i].amount = arrayProduct[i].amount;
+                }
+                total += arrayProduct[i].price*arrayProduct[i].amount;
+            }
+        document.getElementById('result').innerHTML = total + "đ";
+    }
+    
+    displayProduct();
+</script>
+</body>
+</html>

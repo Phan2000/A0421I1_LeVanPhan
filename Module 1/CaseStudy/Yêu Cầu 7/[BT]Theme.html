@@ -4,51 +4,91 @@
 	<meta charset="utf-8">
 	<title>Theme</title>
 </head>
+<style type="text/css">
+	#tr1{
+		background-color:silver;
+	}
+	#th1{
+		text-align:center; 
+		font-size: 40px;
+		background-color:silver;
+	}
+	#td2{
+		border-bottom: none;
+	}
+	#td3{
+		font-size: 160%;
+		border-bottom: none; 
+		border-top: none;
+	}
+	#td1{
+		font-size: 200%;
+		border-left: none; 
+		border-right: none;
+	}
+	#right{
+		font-size: 200%;
+		border-right: none;
+	}
+	#left{
+		font-size: 200%;
+		text-align:center; 
+		border-left:none;
+	}
+	#top{
+		border-top: none;
+	}
+</style>
 
 <body>
-<table border="1" width='35%' cellpadding ='5' cellspacing='0'>
+<table border="2" width="100%" cellpadding ='35%' cellspacing='0'>
 	<tr>
-		<th colspan="6" style="text-align:center; font-size: 25px;" >A Web Page</th>
+		<th colspan="6" id="th1">A Web Page</th>
+	</tr>
+	<tr id="tr1">
+		<td id="right">⇦</td>
+		<td id="td1">⇨</td>
+		<td id="td1">✘</td>
+		<td id="td1">☖</td>
+		<td id="td1"><input type="text" size="160%" placeholder="http://"></td>
+		<td id="left"><input type="text" placeholder="🔍"></td>
 	</tr>
 	<tr>
-		<td style="border-right: none;">⇦</td>
-		<td style="border-left: none; border-right: none;">⇨</td>
-		<td>✘</td>
-		<td>☖</td>
-		<td><input type="text" placeholder="http://" size="40px"></td>
-		<td><input type="text" placeholder="🔍" size="15px"></td>
+		<th colspan="2" id="right"><img src="https://brasol.vn/public/ckeditor/uploads/tin-tuc/13-logo-google.png " width="50" height="50"></th>
+		<th colspan="4" id="left">Hệ Thống Quản Lý Bài Tập CaseStudy Module 1</th>
 	</tr>
 	<tr>
-		<td colspan="2">G</td>
-		<td colspan="4">Hệ Thống Quản Lý Bài Tập CaseStudy Module 1</td>
-	</tr>
-	<tr>
-		<td colspan="2"><select>
+		<td colspan="2" id="td2"><select>
 			<option>Bài Tập 1</option>
 		</select></td>
+		<th colspan="4" id="td2"> </th>
 	</tr>
 	<tr>
-		<td colspan="2"><select>
+		<td colspan="2" id="td3"><select>
 			<option>Bài Tập 2</option>
 		</select></td>
+		<td colspan="4" id="td3"> </td>
 	</tr>
 	<tr>
-		<td colspan="2"><select>
+		<td colspan="2" id="td3"><select>
 			<option>Bài Tập 3</option>
 		</select></td>
+		<td colspan="4" id="td3"> </td>
 	</tr>
 	<tr>
-		<td colspan="2"><select>
+		<td colspan="2" id="td3"><select>
 			<option>Bài Tập 4</option>
 		</select></td>
+		<td colspan="4" id="td3"> </td>
 	</tr>
 	<tr>
-		<td colspan="2"><select>
+		<td colspan="2" id="top"><select>
 			<option>Bài Tập 5</option>
 		</select></td>
+		<td colspan="4" id="top"> </td>
 	</tr>
 	<tr>
-		<td colspan="6">//</td>
+		<td colspan="6" id="tr1">.</td>
 	</tr>
 </table>
 </body>

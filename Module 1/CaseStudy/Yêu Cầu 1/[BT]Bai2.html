@@ -6,21 +6,23 @@
 </head>
 <body>
 <script type="text/javascript">
-		function triango(m,n) {
-		for(i = 1; i <= m; i++) {
-		for(j = 1; j <= n; j++) {
-		if(!((i==1 && (j>=2))
-		  ||(i==2 && (j>=3))
-		  ||(i==3 && (j==2||j>=4))
-		  ||(i==4 && (j==2||j==3||j==5))))
+	function triango(m,n) {
+		for(i = 1; i <= m; i++) 
+		{
+			for(j = 1; j <= n; j++) 
 			{
-				document.write("*");
-			} else {
-				document.write("&nbsp"+"&nbsp");
+			if(!((i==1 && (j>=2))
+			  ||(i==2 && (j>=3))
+			  ||(i==3 && (j==2||j>=4))
+			  ||(i==4 && (j==2||j==3||j==5))))
+				{
+					document.write("*");
+				} else {
+					document.write("&nbsp"+"&nbsp");
+				}
 			}
+			document.write("</br>");
 		}
-		document.write("</br>");
-	}
 	}
 	var m=5,n=5;
 	triango(m,n);

@@ -35,13 +35,15 @@
 			for(j=0;j<matrix[i].length;j++)
 			{
 			    var flag = true;
-			    if (matrix[i][j] < 2){
+			    if (matrix[i][j] < 2)
+			    {
 			        flag = false;
 			    }
 			    else{
 			        for (let k = 2; k < matrix[i][j]-1; k++)
 			        {
-			            if (matrix[i][j] % k == 0){
+			            if (matrix[i][j] % k == 0)
+			            {
 			                flag = false;
 			                break;
 			            }

@@ -10,11 +10,13 @@
 	var cols = parseInt(prompt("Enter number of cols : "));
 	var matrix=[],arrTemp=[];
 	
-	function addArray(rows,cols){
-		
-		for(let i=0;i<rows;i++){
+	function addArray(rows,cols)
+	{		
+		for(let i=0;i<rows;i++)
+		{
 			arrTemp=[];
-			for(let j=0;j<cols;j++){
+			for(let j=0;j<cols;j++)
+			{
 				arrTemp[j] = parseInt(prompt("Enter element ["+j+"]"+" of matrix : "));
 			}
 			matrix.push(arrTemp);
@@ -22,10 +24,13 @@
 
 		return matrix;
 	}
-	function evenTotal(matrix){
+	function evenTotal(matrix)
+	{
 		let sum =0;
-		for(let i=0;i<matrix.length;i++){
-			for(let j=0;j<matrix[i].length;j++){
+		for(let i=0;i<matrix.length;i++)
+		{
+			for(let j=0;j<matrix[i].length;j++)
+			{
 				if(matrix[i][j]%2==0)
 				{
 				sum += matrix[i][j];
