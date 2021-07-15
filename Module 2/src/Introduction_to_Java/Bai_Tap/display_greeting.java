@@ -1,8 +1,7 @@
-package Bai_Tap;
-
+package Introduction_to_Java.Bai_Tap;
 import java.util.Scanner;
 
-public class hien_thi_loi_chao {
+public class display_greeting {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
