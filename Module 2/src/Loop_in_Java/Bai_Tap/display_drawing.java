@@ -3,8 +3,8 @@ package Loop_in_Java.Bai_Tap;
 public class display_drawing {
     public static void main(String[] args) {
         for(int i = 0; i<3; i++){
-            for (int j = 0; j<9;j++){
-                System.out.print("*");//In hình chữ nhật;
+            for (int j = 0; j<6;j++){
+                System.out.print(" * ");//In hình chữ nhật;
             }
             System.out.println("");
         }
