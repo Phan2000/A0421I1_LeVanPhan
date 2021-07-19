@@ -1,4 +1,4 @@
-package Loop_in_Java.Thuc_Hanh;
+package loop_in_java.thuc_hanh;
 
 import java.util.*;
 

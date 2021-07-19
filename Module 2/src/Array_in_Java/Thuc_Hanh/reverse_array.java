@@ -1,4 +1,4 @@
-package Array_in_Java.Thuc_Hanh;
+package array_in_java.thuc_hanh;
 
 import java.util.*;
 

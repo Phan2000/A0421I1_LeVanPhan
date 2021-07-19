@@ -1,17 +1,17 @@
-package Introduction_to_Java.Bai_Tap;
+package introduction_to_java.bai_tap;
 
 import java.util.Scanner;
 
 public class number_to_word {
     public void pw(int n, String str)
     {
-        String one[] = {
+        String[] one = {
                 " ", " one", " two", " three", " four", " five", " six", " seven",
                 " eight", " Nine", " ten", " eleven", " twelve", " thirteen",
                 " fourteen", "fifteen", " sixteen", " seventeen", " eighteen",
                 " nineteen"
         };
-        String ten[] = { " ", " ", " twenty", " thirty", " forty", " fifty",
+        String[] ten = { " ", " ", " twenty", " thirty", " forty", " fifty",
                 " sixty", "seventy", " eighty", " ninety"
         };
         if (n > 19) {

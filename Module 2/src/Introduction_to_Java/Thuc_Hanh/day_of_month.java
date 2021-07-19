@@ -1,4 +1,4 @@
-package Introduction_to_Java.Thuc_Hanh;
+package introduction_to_java.thuc_hanh;
 
 import java.util.*;
 

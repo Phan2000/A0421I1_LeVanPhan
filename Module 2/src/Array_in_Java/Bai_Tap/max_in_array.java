@@ -1,4 +1,4 @@
-package Array_in_Java.Bai_Tap;
+package array_in_java.bai_tap;
 
 import java.util.*;
 

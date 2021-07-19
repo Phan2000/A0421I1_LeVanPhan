@@ -1,4 +1,4 @@
-package Loop_in_Java.Bai_Tap;
+package loop_in_java.bai_tap;
 
 public class display_drawing {
     public static void main(String[] args) {
