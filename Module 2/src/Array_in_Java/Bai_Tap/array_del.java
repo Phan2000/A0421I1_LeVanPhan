@@ -9,11 +9,11 @@ public class array_del {
         Scanner scanner = new Scanner(System.in);
 
         do {
-            System.out.printf("Enter the number of elements in the array: ");
+            System.out.print("Enter the number of elements in the array: ");
             n = scanner.nextInt();
         } while (n <= 0);
 
-        int array[] = new int[n];
+        int[] array = new int[n];
 
         System.out.println("Enter elements for array: ");
         for (i = 0; i < n; i++) {
@@ -21,20 +21,20 @@ public class array_del {
             array[i] = scanner.nextInt();
         }
 
-        System.out.printf("Enter the element you want to delete: ");
-        int elemenDel = scanner.nextInt();
+        System.out.print("Enter the element you want to delete: ");
+        int elementDel = scanner.nextInt();
 
         for (cnt = i = 0; i < n; i++) {
-            if (array[i] != elemenDel) {
+            if (array[i] != elementDel) {
                 array[cnt] = array[i];
                 cnt++;
             }
         }
         n = cnt;
 
-        System.out.printf("Array left after removing %d is: " , elemenDel);
+        System.out.printf("Array left after removing %d is: " , elementDel);
         for (i = 0; i < n; i++) {
-            System.out.printf(array[i] + "\t");
+            System.out.print(array[i] + "\t");
         }
     }
 }
