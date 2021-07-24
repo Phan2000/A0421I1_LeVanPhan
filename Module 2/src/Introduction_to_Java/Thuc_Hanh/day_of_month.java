@@ -2,7 +2,7 @@ package introduction_to_java.thuc_hanh;
 
 import java.util.*;
 
-public class day_of_month {
+public class Day_Of_Month {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your month : ");

@@ -1,8 +1,8 @@
 package introduction_to_java.bai_tap;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class number_to_word {
+public class Number_To_Word {
     public void pw(int n, String str)
     {
         String[] one = {
@@ -28,7 +28,7 @@ public class number_to_word {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter an integer number: ");
         int number = scanner.nextInt();
-        number_to_word numberToWord = new number_to_word();
+        Number_To_Word numberToWord = new Number_To_Word();
         System.out.print("After conversion number in words is :");
         numberToWord.pw(((number / 100) % 10), " hundred");
         numberToWord.pw((number % 100), " ");

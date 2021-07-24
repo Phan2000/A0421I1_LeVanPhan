@@ -1,9 +1,8 @@
 package introduction_to_java.bai_tap;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class usd_to_vnd {
-
+public class Usd_To_Vnd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your money : ");

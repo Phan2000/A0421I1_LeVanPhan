@@ -2,7 +2,7 @@ package loop_in_java.thuc_hanh;
 
 import java.util.*;
 
-public class greatest_common_divisor {
+public class Greatest_Common_Divisor {
     //ước chung max;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -23,5 +23,4 @@ public class greatest_common_divisor {
         }
         System.out.printf("Greatest common factor: %d" , a);
     }
-
 }

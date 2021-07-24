@@ -2,7 +2,7 @@ package introduction_to_java.thuc_hanh;
 
 import java.util.*;
 
-public class my_BMI {
+public class My_Bmi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double weight, height, bmi;

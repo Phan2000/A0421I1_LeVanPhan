@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f1c7465-90ba-49b9-9211-17c55352e1c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Loop_in_Java/Bai_Tap/Display_20_Prime_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/Interest_Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/Is_Prime_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Add_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Array_Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Concat_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Count_Character_in_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Max_In_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Min_In_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Sum_Element_In_Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/bai_tap/Sum_Element_In_Main_Cross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/thuc_hanh/Change_Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/thuc_hanh/Count_Students_Pass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/thuc_hanh/Find_In_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/thuc_hanh/Find_Max_In_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/thuc_hanh/Find_Min_In_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_method_in_java/thuc_hanh/Reverse_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-reflect.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-test.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/Concat_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/Count_character_in_string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/Sum_element_in_main_cross.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/Sum_element_incolumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/add_element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/array_del.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/count_students_pass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/max_in_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Bai_Tap/min_in_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Thuc_Hanh/change_temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Thuc_Hanh/find_in_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Thuc_Hanh/find_max_inArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Thuc_Hanh/find_min_inArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Array_in_Java/Thuc_Hanh/reverse_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/display_greeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/display_greeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/number_to_word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/number_to_word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/usd_to_vnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/usd_to_vnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/day_of_month.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/day_of_month.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/is_leapYear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/linear_equation_resolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/linear_equation_resolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/my_BMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/my_BMI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/rectangular_area.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/rectangular_area.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/system_time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/system_time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/check_prime_number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/check_prime_number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/display_20_primenumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/display_drawing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/display_drawing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Thuc_Hanh/draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Thuc_Hanh/draw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Thuc_Hanh/greatest_common_divisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Thuc_Hanh/greatest_common_divisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Thuc_Hanh/interest_cal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Thuc_Hanh/is_primeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/Concat_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/Count_character_in_string.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/Sum_element_in_main_cross.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/Sum_element_incolumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/add_element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/array_del.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/count_students_pass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/max_in_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Bai_Tap/min_in_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Thuc_Hanh/change_temperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Thuc_Hanh/find_in_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Thuc_Hanh/find_max_inArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Thuc_Hanh/find_min_inArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_in_Java/Thuc_Hanh/reverse_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Bai_Tap/display_greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Bai_Tap/display_greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Bai_Tap/number_to_word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Bai_Tap/number_to_word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Bai_Tap/usd_to_vnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Bai_Tap/usd_to_vnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/day_of_month.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/day_of_month.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/is_leapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/linear_equation_resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/linear_equation_resolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/my_BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/my_BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/rectangular_area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/rectangular_area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/system_time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction_to_Java/Thuc_Hanh/system_time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_in_Java/Bai_Tap/check_prime_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop_in_Java/Bai_Tap/check_prime_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_in_Java/Bai_Tap/display_20_primenumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_in_Java/Bai_Tap/display_drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop_in_Java/Bai_Tap/display_drawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/draw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/greatest_common_divisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/greatest_common_divisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/interest_cal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_in_Java/Thuc_Hanh/is_primeNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1viaGl2ZGCv2pGEIjh6s537Lhov" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Find_In_Array">
+    <configuration name="Display_20_Prime_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop_in_java.bai_tap.Display_20_Prime_Numbers" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loop_in_java.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Draw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop_in_java.thuc_hanh.Draw" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loop_in_java.thuc_hanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Find_In_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_method_in_java.thuc_hanh.Find_In_Array" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array_method_in_java.thuc_hanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Greatest_Common_Divisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop_in_java.thuc_hanh.Greatest_Common_Divisor" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loop_in_java.thuc_hanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Min_In_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_method_in_java.bai_tap.Min_In_Array" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array_method_in_java.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Find_In_Array" />
+        <item itemvalue="Application.Min_In_Array" />
+        <item itemvalue="Application.Greatest_Common_Divisor" />
+        <item itemvalue="Application.Draw" />
+        <item itemvalue="Application.Display_20_Prime_Numbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f1c7465-90ba-49b9-9211-17c55352e1c2" name="Default Changelist" comment="" />
+      <created>1627047271607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627047271607</updated>
+      <workItem from="1627047274563" duration="334000" />
+      <workItem from="1627048553546" duration="1295000" />
+      <workItem from="1627049991901" duration="459000" />
+      <workItem from="1627117092258" duration="1572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
