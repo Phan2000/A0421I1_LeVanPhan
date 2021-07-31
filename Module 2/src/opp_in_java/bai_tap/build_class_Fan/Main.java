@@ -1,4 +1,4 @@
-package opp_in_java.bai_tap.build_class_Fan;
+package opp_in_java.bai_tap.build_class_fan;
 
 public class Main {
 	public static void main(String[] args) {
