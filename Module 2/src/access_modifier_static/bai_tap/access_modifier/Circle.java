@@ -24,7 +24,7 @@ public class Circle {
     //     return Math.PI * Math.pow(radius,2);
     // }
 
-    private double getArea(){
+    double getArea(){
         return Math.PI * Math.pow(radius,2);
     }
 
