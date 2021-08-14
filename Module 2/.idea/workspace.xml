@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f1c7465-90ba-49b9-9211-17c55352e1c2" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/comparator/ComparatorCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/comparator/ComparatorCircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/comparator/ComparatorRecTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/comparator/ComparatorRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/geometry/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/geometry/ComparableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/geometry/ComparableCircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/geometry/ComparableRecTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/geometry/ComparableRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/geometry/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/thuc_hanh/geometry/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/bai_tap/resizeable_for_geometric_class/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/bai_tap/resizeable_for_geometric_class/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/bai_tap/resizeable_for_geometric_class/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/bai_tap/resizeable_for_geometric_class/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_class_interface/bai_tap/resizeable_for_geometric_class/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/opp_in_java/bai_tap/build_class_Fan/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/opp_in_java/bai_tap/build_class_Fan/Fan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/opp_in_java/bai_tap/build_class_Fan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/opp_in_java/bai_tap/build_class_Fan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/access_modifier_static/bai_tap/access_modifier/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access_modifier_static/bai_tap/access_modifier/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +47,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/apj-calculator-develop" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ComparatorRecTest">
+  <component name="RunManager" selected="Application.MainTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -72,19 +64,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AbstractAndInterfaceTests (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_class_interface.thuc_hanh.animal_interface_edible.AbstractAndInterfaceTests" />
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstract_class_interface.thuc_hanh.animal_interface_edible.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstract_class_interface.bai_tap.resizeable_for_geometric_class.MainTest" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstract_class_interface.bai_tap.resizeable_for_geometric_class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.ComparatorRecTest" />
         <item itemvalue="Application.ComparatorCircleTest" />
         <item itemvalue="Application.ComparableCircleTest" />
         <item itemvalue="Application.ComparableRecTest" />
-        <item itemvalue="Application.AbstractAndInterfaceTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +165,10 @@
       <workItem from="1628299265280" duration="1935000" />
       <workItem from="1628301431135" duration="6840000" />
       <workItem from="1628325357881" duration="4598000" />
+      <workItem from="1628512928549" duration="22000" />
+      <workItem from="1628513072862" duration="138000" />
+      <workItem from="1628514582423" duration="2873000" />
+      <workItem from="1628863257468" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1627522886337</created>
