@@ -2,7 +2,7 @@ package loop_in_java.bai_tap;
 
 import java.util.*;
 
-public class Display_20_Prime_Numbers {
+public class Display20PrimeNumbers {
     public static void main(String[] args) {
         int n;
         boolean flag = true;

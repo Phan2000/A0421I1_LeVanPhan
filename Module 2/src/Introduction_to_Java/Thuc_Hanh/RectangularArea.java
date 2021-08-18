@@ -2,7 +2,7 @@ package introduction_to_java.thuc_hanh;
 
 import java.util.*;
 
-public class Rectangular_Area {
+public class RectangularArea {
     public static void main(String[] args) {
         float width;
         float height;

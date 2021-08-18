@@ -2,7 +2,7 @@ package introduction_to_java.thuc_hanh;
 
 import java.util.*;
 
-public class Linear_Equation_Resolver {
+public class LinearEquationResolver {
     public static void main(String[] args) {
         System.out.println("Linear Equation Resolver");
         System.out.println("Given a equation as 'a * x + b = 0', please enter constants:");

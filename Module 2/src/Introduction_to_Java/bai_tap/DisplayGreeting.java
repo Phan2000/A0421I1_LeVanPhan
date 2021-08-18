@@ -2,7 +2,7 @@ package introduction_to_java.bai_tap;
 
 import java.util.*;
 
-public class Display_Greeting {
+public class DisplayGreeting {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {

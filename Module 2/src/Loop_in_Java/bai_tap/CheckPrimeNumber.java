@@ -2,7 +2,7 @@ package loop_in_java.bai_tap;
 
 import java.util.*;
 
-public class Check_Prime_Number {
+public class CheckPrimeNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the amount of numbers you want to check : ");
