@@ -7,8 +7,8 @@ public class Reverse_Interger_Array_Number {
         Stack<Integer> wStack = new Stack<>();
         int[] arrayNumber = {1,2,3,4,5};
 
-        for (int i = 0; i < arrayNumber.length; i++) {
-            wStack.push(arrayNumber[i]);
+        for (int j : arrayNumber) {
+            wStack.push(j);
         }
 
         for (int i = 0; i < arrayNumber.length; i++) {
