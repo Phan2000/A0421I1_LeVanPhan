@@ -6,22 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f1c7465-90ba-49b9-9211-17c55352e1c2" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/display_greeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/number_to_word.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Bai_Tap/usd_to_vnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/Is_Leap_Year.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/day_of_month.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/linear_equation_resolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/my_BMI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/rectangular_area.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Introduction_to_Java/Thuc_Hanh/system_time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/Display_20_Prime_Numbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/check_prime_number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/Loop_in_Java/Bai_Tap/display_drawing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clean_code_refactoring/bai_tap/tennis_game/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clean_code_refactoring/bai_tap/tennis_game/TennisGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queue/bai_tap/queue_use_linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_queue/bai_tap/queue_use_linkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queue/bai_tap/reverse_int_arr/Reverse_Interger_Array_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_queue/bai_tap/reverse_int_arr/Reverse_Interger_Array_Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../New Text Document.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +52,7 @@
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Reverse_Interger_Array_Number">
+  <component name="RunManager" selected="Application.CheckPrimeNumber">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -78,6 +62,19 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckPrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop_in_java.bai_tap.CheckPrimeNumber" />
+      <module name="Module 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loop_in_java.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="abstract_class_interface.bai_tap.colorable_for_geometric_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_class_interface.bai_tap.resizeable_for_geometric_class.MainTest" />
-      <module name="Module 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstract_class_interface.bai_tap.resizeable_for_geometric_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckPrimeNumber" />
         <item itemvalue="Application.Reverse_Interger_Array_Number" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainTest (1)" />
         <item itemvalue="Application.NumberToWord" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +175,8 @@
       <workItem from="1630460062261" duration="103000" />
       <workItem from="1630463054273" duration="179000" />
       <workItem from="1630596487336" duration="32000" />
+      <workItem from="1630849518605" duration="112000" />
+      <workItem from="1630849700965" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1627522886337</created>
