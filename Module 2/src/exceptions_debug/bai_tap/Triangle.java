@@ -3,20 +3,18 @@ package exceptions_debug.bai_tap;
 import java.lang.Math;
 
 public class Triangle {
-
       private double side1 = 1.0;
       private double side2 = 1.0;
       private double side3 = 1.0;
 
       public Triangle() {
-
       }
 
-      public Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
+      Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
                   if (side1 + side2 <= side3  
                     ||side1 + side3 <= side2 
                     ||side2 + side3 <= side1) { 
-                        throw new IllegalTriangleException("Kich thuoc sai, vui long nhap lai !");
+                        throw new IllegalTriangleException("Side false, pls !");
                   }
                   this.side1 = side1;
                   this.side2 = side2;
