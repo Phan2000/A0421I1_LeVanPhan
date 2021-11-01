@@ -16,18 +16,15 @@ import java.util.List;
 public class CustomerServlet extends HttpServlet {
     List<Customer> customerList = new ArrayList<>();
 
-    @Override
-    public void init() throws ServletException {
-        customerList.add(new Customer("Nguyen Hoang Nam","1983-08-20","Ha Noi", "123.img"));
-        customerList.add(new Customer("Tran Dang Khoa","1984-08-21","Thanh Hoa", "456.img"));
-        customerList.add(new Customer("Hoang Van Cong","1985-08-22","Lang Son", "789.img"));
-    }
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        customerList.add(new Customer("Nguyen Hoang Nam","1983-08-20","Ha Noi", "123.img"));
+        customerList.add(new Customer("Tran Dang Khoa","1984-08-21","Thanh Hoa", "456.img"));
+        customerList.add(new Customer("Hoang Van Cong","1985-08-22","Lang Son", "789.img"));
         request.setAttribute("listCustomer", customerList);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("/views/home.jsp");
         requestDispatcher.forward(request, response);

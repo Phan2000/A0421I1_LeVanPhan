@@ -30,6 +30,14 @@
         width: 100px;
         height: 100px;
     }
+    h1 {
+        text-align: center;
+        font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    }
+    h2 {
+        text-align: center;
+        font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    }
 </style>
 <body>
 <h1>
@@ -45,7 +53,7 @@
         <th>Address</th>
         <th>Images</th>
     </tr>
-    <c:forEach items="${list}" var="customer">
+    <c:forEach items="${listCustomer}" var="customer">
         <tr>
             <td>${customer.name}</td>
             <td>${customer.birthday}</td>
